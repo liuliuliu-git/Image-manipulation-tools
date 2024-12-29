@@ -1,0 +1,1 @@
+<view><block wx:for="{{num}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><canvas style="{{'visibility:hidden;position:relative;left:-1000rpx;'+(style)}}" canvas-id="{{Canvas+index}}"></canvas></view></block></view>

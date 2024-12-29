@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "免责申明",
+  "usingComponents": {
+    "banner": "/components/banner/index"
+  }
+}

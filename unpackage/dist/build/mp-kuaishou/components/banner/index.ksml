@@ -1,0 +1,1 @@
+<view class="banner-ad-bg"><view class="banner-ad-view"><block ks:if="{{!error}}"><ad unit-id="{{adUnitId}}" type="{{100033797}}" data-event-opts="{{[['error',[['onerror',['$event']]]]]}}" binderror="__e"></ad></block></view></view>

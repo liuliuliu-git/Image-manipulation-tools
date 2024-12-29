@@ -1,0 +1,1 @@
+<view><block tt:for="{{num}}" tt:for-item="item" tt:for-index="index" tt:key="index"><view><canvas style="{{'visibility:hidden;position:relative;left:-1000rpx;'+(style)}}" canvas-id="{{Canvas+index}}"></canvas></view></block></view>

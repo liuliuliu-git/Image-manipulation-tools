@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "照片尺寸修改",
+  "navigationStyle": "default",
+  "transparentTitle": "always",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "specification": "/components/specification/specification",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "mask": "/components/mask/mask",
+    "my-navbar": "/components/ms-navbar/index",
+    "banner": "/components/banner/index"
+  }
+}

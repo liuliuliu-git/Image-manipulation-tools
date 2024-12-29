@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["uni_modules/uview-ui/components/u--form/u--form"],{"315f":function(e,n,t){"use strict";t.r(n);var u=t("6bc3"),i=t.n(u);for(var r in u)["default"].indexOf(r)<0&&function(e){t.d(n,e,(function(){return u[e]}))}(r);n["default"]=i.a},"63e4":function(e,n,t){"use strict";t.d(n,"b",(function(){return u})),t.d(n,"c",(function(){return i})),t.d(n,"a",(function(){}));var u=function(){var e=this.$createElement;this._self._c},i=[]},"6bc3":function(e,n,t){"use strict";(function(e){var u=t("47a9");Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var i=u(t("b46b")),r={name:"u--form",mixins:[e.$u.mpMixin,i.default,e.$u.mixin],components:{uvForm:function(){Promise.all([t.e("common/vendor"),t.e("uni_modules/uview-ui/components/u-form/u-form")]).then(function(){return resolve(t("5458"))}.bind(null,t)).catch(t.oe)}},created:function(){this.children=[]},methods:{setRules:function(e){this.$refs.uForm.setRules(e)},validate:function(){return this.$refs.uForm.validate()},validateField:function(e,n,t){return this.$refs.uForm.validateField(e,n,t)},resetFields:function(){return this.$refs.uForm.resetFields()},clearValidate:function(e){return this.$refs.uForm.clearValidate(e)},setMpData:function(){this.$refs.uForm.children=this.children}}};n.default=r}).call(this,t("7513")["default"])},"97cd":function(e,n,t){"use strict";t.r(n);var u=t("63e4"),i=t("315f");for(var r in i)["default"].indexOf(r)<0&&function(e){t.d(n,e,(function(){return i[e]}))}(r);var o=t("828b"),a=Object(o["a"])(i["default"],u["b"],u["c"],!1,null,null,null,!1,u["a"],void 0);n["default"]=a.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'uni_modules/uview-ui/components/u--form/u--form-create-component',
+    {
+        'uni_modules/uview-ui/components/u--form/u--form-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('7513')['createComponent'](__webpack_require__("97cd"))
+        })
+    },
+    [['uni_modules/uview-ui/components/u--form/u--form-create-component']]
+]);

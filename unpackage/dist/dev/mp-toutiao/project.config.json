@@ -1,0 +1,11 @@
+{
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": true,
+    "newFeature": true
+  },
+  "appid": "tt61e41759fed5707a01",
+  "projectname": "ms-uni"
+}

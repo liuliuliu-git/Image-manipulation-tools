@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "照片尺寸修改",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-slider": "/uni_modules/uview-ui/components/u-slider/u-slider",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "mask": "/components/mask/mask",
+    "ll-compress-img": "/uni_modules/ll-compress-img/components/ll-compress-img/ll-compress-img",
+    "my-navbar": "/components/ms-navbar/index",
+    "banner": "/components/banner/index"
+  }
+}

@@ -1,0 +1,1 @@
+<u-transition vue-id="1624f065-1" show="{{show}}" custom-class="u-overlay" duration="{{duration}}" custom-style="{{overlayStyle}}" data-event-opts="{{[['^click',[['clickHandler']]]]}}" bind:click="__e" class="data-v-72cb839f" bind:__l="__l" vue-slots="{{['default']}}"><slot></slot></u-transition>

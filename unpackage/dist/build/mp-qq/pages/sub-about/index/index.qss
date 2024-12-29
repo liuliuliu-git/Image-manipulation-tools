@@ -1,0 +1,1 @@
+.app-container{padding:20rpx}.about-list .about-item{padding:20rpx}.about-list .about-item:nth-last-child(n+2){border-bottom:2rpx solid #f8f8f8}

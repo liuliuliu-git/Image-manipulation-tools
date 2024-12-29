@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/modify/modify"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/sub-about",
+      "pages": [
+        "index/index",
+        "copyRight/copyRight",
+        "developers/developers",
+        "disclaimer/disclaimer"
+      ]
+    },
+    {
+      "root": "pages/sub-modify",
+      "pages": [
+        "modifyDpi/modifyDpi",
+        "chooseSize/chooseSize",
+        "modifySize/modifySize"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3c9cff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/unclickIndex.png",
+        "selectedIconPath": "static/image/clickIndex.png",
+        "text": "压缩"
+      },
+      {
+        "pagePath": "pages/modify/modify",
+        "iconPath": "static/image/unclickModify.png",
+        "selectedIconPath": "static/image/clickModify.png",
+        "text": "尺寸修改"
+      }
+    ]
+  },
+  "component2": true,
+  "usingComponents": {}
+}

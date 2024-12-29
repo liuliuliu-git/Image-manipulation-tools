@@ -1,0 +1,42 @@
+.flex{
+	display: flex;
+}
+
+.flex-ai_center{
+	display: flex;
+	align-items: center;
+}
+
+.flex-jc_center{
+	display: flex;
+	justify-content: center;
+}
+
+.flex-jc_between{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-jc_arround{
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-middle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ 
+.app-container {
+	padding: 20rpx;
+}
+		
+.w100{
+	width: 100%;
+}
+
+.h100{
+	height: 100%;
+}
+		

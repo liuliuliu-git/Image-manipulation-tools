@@ -1,0 +1,1 @@
+<view class="banner-ad-bg"><view class="banner-ad-view"><block tt:if="{{!error}}"><ad unit-id="{{adUnitId}}" ad-height="{{160}}" type="video​" data-event-opts="{{[['error',[['onerror',['$event']]]],['load',[['onload',['$event']]]]]}}" binderror="__e" bindload="__e"></ad></block></view></view>

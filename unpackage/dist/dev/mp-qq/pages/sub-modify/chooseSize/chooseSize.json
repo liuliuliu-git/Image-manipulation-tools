@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "选择照片尺寸",
+  "usingComponents": {
+    "u--form": "/uni_modules/uview-ui/components/u--form/u--form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "specification": "/components/specification/specification",
+    "mask": "/components/mask/mask"
+  }
+}

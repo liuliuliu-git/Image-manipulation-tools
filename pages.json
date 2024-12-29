@@ -1,0 +1,118 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "照片尺寸修改",
+				// #ifdef MP-TOUTIAO
+				"navigationStyle": "default",
+				"transparentTitle": "always",
+				// #endif 
+				// #ifndef MP-TOUTIAO 
+				// 禁用uniapp的默认的头部导航
+				"navigationStyle": "custom",
+				// #endif 
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/modify/modify",
+			"style": {
+				"navigationBarTitleText": "照片尺寸修改",
+				// #ifdef MP-TOUTIAO
+				"navigationStyle": "default",
+				"transparentTitle": "always",
+				// #endif 
+				// #ifndef MP-TOUTIAO 
+				// 禁用uniapp的默认的头部导航
+				"navigationStyle": "custom",
+				// #endif
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	// 分包处理
+	"subPackages": [
+		// 顶部关于按钮对应分包页面
+		{
+			"root": "pages/sub-about",
+			"pages": [{
+					"path": "index/index",
+					"style": {
+						"navigationBarTitleText": "关于我们"
+					}
+				},
+				{
+					"path": "copyRight/copyRight",
+					"style": {
+						"navigationBarTitleText": "版权说明"
+					}
+				},
+				{
+					"path": "developers/developers",
+					"style": {
+						"navigationBarTitleText": "开发者介绍"
+					}
+				},
+				{
+					"path": "disclaimer/disclaimer",
+					"style": {
+						"navigationBarTitleText": "免责申明"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/sub-modify",
+			"pages": [{
+					"path": "modifyDpi/modifyDpi",
+					"style": {
+						"navigationBarTitleText": "照片分辨率修改"
+					}
+				},
+				{
+					"path": "chooseSize/chooseSize",
+					"style": {
+						"navigationBarTitleText": "选择照片尺寸"
+					}
+				},
+				{
+					"path": "modifySize/modifySize",
+					"style": {
+						"navigationBarTitleText": "照片尺寸修改"
+					}
+				}
+
+			]
+		}
+	],
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue",
+		"ms-navbar": "@/componets/ms-navbar/index.vue"
+	},
+	"tabBar": {
+		
+		"color": "#7A7E83",
+		"selectedColor": "#3c9cff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/unclickIndex.png",
+			"selectedIconPath": "static/image/clickIndex.png",
+			"text": "压缩"
+		}, {
+			"pagePath": "pages/modify/modify",
+			"iconPath": "static/image/unclickModify.png",
+			"selectedIconPath": "static/image/clickModify.png",
+			"text": "尺寸修改"
+		}]
+	}
+}

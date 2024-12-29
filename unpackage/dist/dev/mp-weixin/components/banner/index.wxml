@@ -1,0 +1,1 @@
+<view class="banner-ad-bg"><view class="banner-ad-view"><block wx:if="{{!error}}"><ad unit-id="{{adUnitId}}" ad-intervals="{{adTimer}}" data-event-opts="{{[['error',[['onerror',['$event']]]],['load',[['onload',['$event']]]]]}}" binderror="__e" bindload="__e"></ad></block></view></view>

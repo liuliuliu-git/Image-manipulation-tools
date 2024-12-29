@@ -1,0 +1,1 @@
+<view><block qq:for="{{num}}" qq:for-item="item" qq:for-index="index" qq:key="index"><view><canvas style="{{'visibility:hidden;position:relative;left:-1000rpx;'+(style)}}" canvas-id="{{Canvas+index}}"></canvas></view></block></view>
